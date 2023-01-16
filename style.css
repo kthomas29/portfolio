@@ -11,5 +11,9 @@ img {
 }
 
 .background {
-  background-image: url("fondecran.jpg");
+  background-image: url("images/fondecran.jpg");
+}
+
+.card-white {
+
 }
