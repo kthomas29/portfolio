@@ -1,19 +1,41 @@
-h1 img {
-  height: 32px;
-  width: auto;
+@font-face {
+  font-family: "Gambetta-Medium";
+  src: url("./Fonts/Gambetta-Medium.ttf");
 }
 
-img {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.background {
-  background-image: url("images/fondecran.jpg");
+body {
+  font-family: 'Gambetta-Medium';
 }
 
 .card-white {
+  overflow: hidden;
+  height: 120px;
+  background: #61876E;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.card-white img {
+  height: 100%;
+  width: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 8px 8px 2px 8px;
+}
+
+.card-white h1 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+body {
+  background-color: #A6BB8D;
+}
+
+.card-education img {
+  width: 160px;
+  height: 160px;
 }
